@@ -3779,7 +3779,7 @@ input, select, textarea {
 		}
 
 		#main > .post {
-			padding: 8rem 8rem 6rem 8rem ;
+			padding: 2rem 1rem 1rem 1rem ;
 		}
 
 			#main > .post header.major > .date {
@@ -3838,7 +3838,7 @@ input, select, textarea {
 			align-items: stretch;
 			text-align: center;
 			width: 100%;
-			padding: 0;
+			padding: 1;
 		}
 
 			#main > .posts > * {
@@ -3857,7 +3857,7 @@ input, select, textarea {
 			}
 
 			#main > .posts > * {
-				padding: 4rem;
+				padding: 2rem;
 				width: 50%;
 			}
 
@@ -4765,4 +4765,12 @@ body {
 
 .slide:nth-child(3) {
   background: #eee;
+}
+
+#main > .tyoname {
+    padding: 1;
+}
+#main > .tyoname p {
+    text-align:center;
+    margin: 1;
 }
