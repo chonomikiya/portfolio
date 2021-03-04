@@ -1,5 +1,10 @@
 @charset "UTF-8";
-header{
-    font-weight: bolder;
-    text-align:justify;
+  
+/* tryad
+#B5CCAE
+#9999C7
+#CCAA99
+*/
+#header{
+   background-color: #B5CCAE;
 }
