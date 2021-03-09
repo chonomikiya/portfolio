@@ -1,10 +1,29 @@
 @charset "UTF-8";
   
-/* tryad
-#B5CCAE
-#9999C7
-#CCAA99
-*/
-#header{
-   background-color: #B5CCAE;
+
+header{
+   width: 100%;
+   height: 50px;
+   background-color:#B5A392;
+}
+.container{
+   /* background-color: #BFFFC5; */
+   
+   width: inherit;
+   height: inherit;
+   display: flex;
+   justify-content: center;
+}
+.item1{
+   /* background-color:#E3D9FF ; */
+   margin: 10px;
+   padding: 0px 10px 0px 10px;
+   align-items: center;   
+}
+.item2{
+   /* background-color:#E3D9FF ; */
+   border-left: 1px dotted #000000;
+   margin: 5px;
+   align-items: center;   
+
 }
