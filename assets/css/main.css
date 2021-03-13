@@ -4,12 +4,13 @@
 header{
    width: auto;
    height: 50px;
-   background-color:#B5A392;
+   background-color:#e2d1c0;
 }
 .container{
    /* background-color: #BFFFC5; */
    width: auto;
    height: inherit;
+   padding: 0 10px 0 10px;
    margin-left: auto;
    margin-right: auto;
    display: flex;
@@ -35,3 +36,50 @@ a.nav{
    color: black;
    text-decoration: none;
 }
+#header{
+   min-width: 120px;
+   max-width: 80%;
+   margin: auto;
+   padding: 4em 0;
+   border-style: solid none;
+   border-width:1px ;
+   text-align: center;
+}
+.intro{
+   padding:90px 0 90px 0 ;
+}
+p.table{
+   width: 100%;
+   /* table-layout: fixed; */
+}
+.medium{
+   width: auto;
+   height: inherit;
+   padding: 10px 0;
+   margin-left: auto;
+   margin-right: auto;
+   /* display: flex; */
+}
+#name{
+   margin-top: 1em;
+   justify-content: end;   
+   justify-items: end;
+}
+.box{
+   margin: auto;
+   background-color: aqua;
+   display: block;
+   text-align: left;
+}
+.content{
+
+}
+.center{
+   min-width: 100px;
+   max-width: 80%;
+}
+.image{
+   float: left;
+}
+
+
