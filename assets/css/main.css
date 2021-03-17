@@ -1,16 +1,25 @@
 @charset "UTF-8";
   
-
+html ,body{
+   height: 100%;
+}
+#wrapper{
+   width: 100%;
+   position: relative;
+   min-height: 100%;
+}
 header{
    width: auto;
    height: 50px;
    background-color:#e2d1c0;
 }
 .footer{
-   width: auto;
-   height: 50px;
-   margin-top: 10px;
    background-color:#e2d1c0;
+   width: 100%;
+   height: 50px;
+   position: absolute;
+   bottom: 0;
+
 }
 .container{
    /* background-color: #BFFFC5; */
@@ -72,10 +81,10 @@ p.table{
    justify-items: end;
 }
 .box{
-   margin: auto;
    width: auto;
    height: auto;
    /* background-color: aqua; */
+   margin:10px auto;
    text-align: left;
    display: flex;
    flex-wrap: wrap;
@@ -83,9 +92,10 @@ p.table{
    gap: 15px;
    border-style: solid none none;
    border-width:1px ;
+   padding-bottom:100px;
 }
 .content{
-   padding: 10px;
+   padding: 20px;
 }
 .center{
    min-width: 100px;
@@ -95,6 +105,7 @@ p.table{
    justify-content: center;
    align-items: center;
 }
+
 .item{
 
 
@@ -103,6 +114,7 @@ img.image{
    /* float: left; */
    width: auto;
    height: auto;  
+   max-width: 400px;
    max-height:400px; 
 
 }
@@ -112,4 +124,37 @@ img.image{
 }
 .column{
 
+}
+.main{
+   padding-bottom: 100px;
+}
+.caption{
+   min-width: 120px;
+   max-width: 80%;
+   margin: 30px auto;
+   padding: auto;
+   border-style: none none solid none;
+   border-width:1px ;
+   text-align: center;
+}
+.youtube{
+   position: relative;
+   margin: auto;
+   width: 80%;
+   padding-top: 56.25%;
+
+}
+.youtube iframe{
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 100% !important;
+   height: 100% !important;
+}
+.button{
+   width: 80px;
+   height: 30px;
+   border-radius: 5px;
+   margin: auto;
+   background: #737373;
 }
