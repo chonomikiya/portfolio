@@ -9,7 +9,18 @@
         <link rel="stylesheet" href="src/reset.css">
         <link rel="stylesheet" href="assets/css/main.css">
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: false,
+                pause: 5000,
+            });
+        });
+</script>
     </head>
 <body class>
     <div id="wrapper">
@@ -31,12 +42,17 @@
                 <br>対応プラットフォーム PCすべて </p>
                 <p>javaを使った2Dアクションゲーム。
                 <br>画面の一番上のブロックに乗ると上へスクロールする。頂上のオーブに触れたらゲームクリア。
-                
                 <br>ステージをcsvファイルから読み込んでいるので簡単に追加できます。
-                
                 <br>ブロックの当たり判定で非常に苦しんで、きちんとログを出力する事の大切さを学びました。
                 </p>
             </article>>
+            <div class="center jumpgame">
+                <div class="slider">
+                    <img src="assets/images/portfolio02.png" width="448" height="600" alt="">
+                    <img src="assets/images/portfolio03.png" width="448" height="600" alt="">
+                    <img src="assets/images/portfolio04.png" width="448" height="600" alt="">
+                </div>
+            </div>
             <div class="center content box caption">
                 <img src="assets/images/GitHub-Mark-32px.png" alt="">
                 <a href="https://github.com/chonomikiya/java_JumpGame">https://github.com/chonomikiya/java_JumpGame</a>
