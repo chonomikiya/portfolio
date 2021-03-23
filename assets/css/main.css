@@ -124,8 +124,6 @@ p.table{
    align-items: center;
 }
 
-.item{
-}
 img.image{
    /* float: left; */
    width: auto;
@@ -142,12 +140,7 @@ img.image{
    display: flex;
    flex-wrap: wrap;
 }
-.column{
 
-}
-.data{
-
-}
 .main{
    padding-bottom: 100px;
 }
