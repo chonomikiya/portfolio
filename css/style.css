@@ -69,6 +69,10 @@ li {
 .lead {
   margin-bottom: 30px;
 }
+.border{
+  border-style: none none solid  none;
+  border-width:1px ;
+}
 
 /*--------------------------------
 ヘッダー
@@ -347,6 +351,20 @@ li {
 
 .home-link {
   text-align: center;
+}
+.youtube{
+  position: relative;
+  margin: auto;
+  width: 80%;
+  padding-top: 56.25%;
+
+}
+.youtube iframe{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 /*media Queries 767
