@@ -264,6 +264,18 @@ li {
 .profile-body p:not(:last-child) {
   margin-bottom: 30px;
 }
+dt {
+  font-weight: bold;
+}
+
+dl,
+dd {
+  font-size: 1.2rem;
+}
+
+dd {
+  margin-bottom: 1em;
+}
 
 /*--------------------------------
  Contact
@@ -365,6 +377,36 @@ li {
   right: 0;
   width: 100% !important;
   height: 100% !important;
+}
+.jumpgame{
+  width: 448px;
+  height: 600px;
+  margin: auto;
+}
+a.url_link:not(:last-child){
+  margin-right: 20px;
+}
+a.url_link{
+  position: relative;
+  display: inline-block;
+  padding: 5px 0;
+  transition: .3s;
+  color: #0000EE;
+}
+a.url_link::after{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 1px;
+  content: "";
+  transition: .3s;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #0000EE;
+}
+a.url_link:hover::after{
+  width: 100%;
 }
 
 /*media Queries 767
