@@ -46,6 +46,13 @@ li {
 .section:nth-of-type(odd) {
   background-color: #f7f7f7;
 }
+.contentblock{
+  padding: 20px;
+  width: 100%;
+}
+.contentblock:nth-of-type(odd){
+  background-color: #f7f7f7;
+}
 
 .inner {
   max-width: 1340px;
