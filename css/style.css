@@ -205,6 +205,9 @@ li {
 .works-img img {
   border: 1px solid #e6e6e6;
 }
+.works-img :hover{
+  background-color: darkgray;
+}
 
 .works-name {
   font-size: 12px;
