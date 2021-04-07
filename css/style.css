@@ -273,20 +273,58 @@ li {
 }
 .profile-body p:not(:last-child) {
   margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+.profile-body p{
+  margin-bottom: 30px;
+  font-size: 1.0rem;
+  clear: both;
 }
 dt {
   font-weight: bold;
 }
-
 dl,
-dd {
-  
+dd {  
   text-align: center;
   font-size: 1.2rem;
+  margin-bottom: 1em;
 }
 
-dd {
-  margin-bottom: 1em;
+.prof-box{
+  float: right;
+  width: 760px;
+  margin-bottom: 20px;
+}
+.prof-list{
+  margin-bottom: 1.2rem;
+  font-size: 13px;
+}
+.cf{
+  zoom: 1;
+}
+.cf ::before{
+  content: "";
+  display: table;
+}
+.cf ::after{
+  clear:both;
+}
+.prof-list dt{
+  float:left;
+  display: block;
+  width: 40%;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 10%;
+}
+.prof-list dd{
+  float: right;
+  width: 60%;
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  text-align: left;
+  white-space: normal;
 }
 
 /*--------------------------------
@@ -294,6 +332,7 @@ dd {
 ---------------------------------*/
 .contact {
   text-align: center;
+  clear:both;
 }
 
 .contact-item:not(:last-child) {
@@ -538,7 +577,11 @@ a.url_link:hover::after{
   .profile-body p:not(:last-child) {
     margin-bottom: 20px;
   }
-
+  .prof-box{
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+  }
   /* フッター */
   .footer {
     padding: 20px;
