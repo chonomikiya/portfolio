@@ -275,9 +275,9 @@ li {
   margin-bottom: 30px;
   font-size: 1.2rem;
 }
-.profile-body p{
+.profile p{
   margin-bottom: 30px;
-  font-size: 1.0rem;
+  font-size: 1.2rem;
   clear: both;
 }
 dt {
@@ -285,20 +285,20 @@ dt {
 }
 dl,
 dd {  
-  text-align: center;
+  text-align: left;
   font-size: 1.2rem;
   margin-bottom: 1em;
 }
-
 .prof-box{
   float: right;
-  width: 760px;
+  width: 100%;
   margin-bottom: 20px;
 }
 .prof-list{
   margin-bottom: 1.2rem;
   font-size: 13px;
 }
+
 .cf{
   zoom: 1;
 }
@@ -312,7 +312,7 @@ dd {
 .prof-list dt{
   float:left;
   display: block;
-  width: 40%;
+  width: 30%;
   font-size: 1.2rem;
   font-weight: bold;
   text-align: left;
@@ -320,11 +320,11 @@ dd {
 }
 .prof-list dd{
   float: right;
-  width: 60%;
+  width: 70%;
   font-size: 1.2rem;
   margin-bottom: 0;
   text-align: left;
-  white-space: normal;
+  word-break: normal;
 }
 
 /*--------------------------------
@@ -568,12 +568,16 @@ a.url_link:hover::after{
   .profile {
     display: block;
   }
+  .profile p{
+    margin-bottom: 30px;
+    font-size: 1.0rem;
+    clear: both;
+  }
   .profile-img {
     width: 150px;
     margin: 0 auto;
     margin-bottom: 25px;
   }
-
   .profile-body p:not(:last-child) {
     margin-bottom: 20px;
   }
@@ -581,6 +585,25 @@ a.url_link:hover::after{
     float: right;
     width: 70%;
     margin-bottom: 20px;
+  }
+  .prof-list dt{
+    float:left;
+    clear: left;
+    display: block;
+    /* width: 30%; */
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: left;
+    padding: 0;
+  }
+  .prof-list dd{
+    float: left;
+    clear: left;
+    /* width: 60%; */
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+    text-align: left;
+    white-space: normal;
   }
   /* フッター */
   .footer {
