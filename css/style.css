@@ -155,12 +155,32 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 40vh;
   text-align: center;
+}
+.bg{
+  background-image: url(../img/background_image.png);
+  background-size: cover ;
+  background-color: rgba(255,255,255,.5);
+  height: 40vh;
+}
+.bg_mask{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(88, 115, 231, 0.5);
 }
 
 .main-visual-inner {
   padding: 0 40px;
+}
+.main-visual-inner p{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+}
+.highligth{
+  /* background-color: #f7f7f7; */
 }
 
 .main-visual-title {
@@ -273,11 +293,11 @@ li {
 }
 .profile-body p:not(:last-child) {
   margin-bottom: 30px;
-  font-size: 1.2rem;
+  font-size: 14px;
 }
 .profile p{
   margin-bottom: 30px;
-  font-size: 1.2rem;
+  font-size: 14px;
   clear: both;
 }
 dt {
@@ -286,7 +306,7 @@ dt {
 dl,
 dd {  
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 14px;
   margin-bottom: 1em;
 }
 .prof-box{
@@ -296,7 +316,7 @@ dd {
 }
 .prof-list{
   margin-bottom: 1.2rem;
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .cf{
@@ -313,7 +333,7 @@ dd {
   float:left;
   display: block;
   width: 30%;
-  font-size: 1.2rem;
+  font-size: 14px;
   font-weight: bold;
   text-align: left;
   padding-left: 10%;
@@ -321,7 +341,7 @@ dd {
 .prof-list dd{
   float: right;
   width: 70%;
-  font-size: 1.2rem;
+  font-size: 14px;
   margin-bottom: 0;
   text-align: left;
   word-break: normal;
@@ -430,8 +450,9 @@ dd {
   height: 100% !important;
 }
 .jumpgame{
-  width: 448px;
-  height: 600px;
+  width: auto;
+  max-width: 448px;
+  height: auto;
   margin: auto;
 }
 a.url_link:not(:last-child){
@@ -458,6 +479,9 @@ a.url_link::after{
 }
 a.url_link:hover::after{
   width: 100%;
+}
+.resize{
+  width: 448px;
 }
 
 /*media Queries 767
@@ -533,6 +557,9 @@ a.url_link:hover::after{
     font-size: 16px;
     margin-bottom: 20px;
   }
+  .bg{
+    background-position-x: -186px;
+  }
 
   /* Works */
   .works-name {
@@ -570,7 +597,7 @@ a.url_link:hover::after{
   }
   .profile p{
     margin-bottom: 30px;
-    font-size: 1.0rem;
+    font-size: 14px;
     clear: both;
   }
   .profile-img {
@@ -583,7 +610,7 @@ a.url_link:hover::after{
   }
   .prof-box{
     float: right;
-    width: 70%;
+    width: 90%;
     margin-bottom: 20px;
   }
   .prof-list dt{
@@ -591,7 +618,7 @@ a.url_link:hover::after{
     clear: left;
     display: block;
     /* width: 30%; */
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: bold;
     text-align: left;
     padding: 0;
@@ -600,7 +627,7 @@ a.url_link:hover::after{
     float: left;
     clear: left;
     /* width: 60%; */
-    font-size: 1rem;
+    font-size: 14px;
     margin-bottom: 0.4rem;
     text-align: left;
     white-space: normal;
@@ -613,5 +640,8 @@ a.url_link:hover::after{
   /* 下層ページ */
   .article {
     padding: 50px 0;
+  }
+  .resize{
+    width: 80%;
   }
 }
