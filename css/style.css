@@ -183,9 +183,7 @@ li {
   text-align: center;
   color: white;
 }
-.highligth{
-  /* background-color: #f7f7f7; */
-}
+
 
 .main-visual-title {
   font-size: 60px;
@@ -511,10 +509,7 @@ a.url_link:hover::after{
     margin-bottom: 20px;
   }
 
-  /* レイアウト */
-  .wrapper {
-    /* padding-top: 57px; */
-  }
+
 
   .section {
     padding: 60px 0;
